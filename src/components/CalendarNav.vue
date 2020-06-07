@@ -2,6 +2,10 @@
   <!--Nav panel-->
   <div class="vc-nav-container">
     <!--Nav header-->
+    <div id="header-inputs">
+      <input type="text"/>
+      <input type="text"/>
+    <div>
     <grid :columns="3" ref="headerGrid" @rollover="onHeaderRollover">
       <!--Move prev button-->
       <span
